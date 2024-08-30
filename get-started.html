@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamline - SBA Loans Made Easy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html">
+                <img src ="logo.png" alt="Streamline logo" class="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="recently-funded.html">Recently Funded</a></li>
+                <li><a href="get-started.html">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>    
+
+    <!-- Form Section -->
+    <section class="get-started-form">
+        <div class="container">
+            <h1>Small Business Loan Request Form</h1>
+            <p>Complete our simple online loan request form to begin your journey towards obtaining the capital you need to purchase or refinance real estate, acquire a business or franchise, buy out a partner or secure working capital.</p>
+            <form action="https://formspree.io/f/movarzyp" method="post">
+                <input type="hidden" name="_subject" value="New SBA Loan Request">
+                <div class="form-group">
+                    <label for="first-name">First Name *</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name *</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="company-name">Company Name *</label>
+                    <input type="text" id="company-name" name="company-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="title">Title *</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="date-business-started">Date Business Started *</label>
+                    <input type="date" id="date-business-started" name="date-business-started" required>
+                </div>
+                <div class="form-group">
+                    <label for="annual-revenue">Annual Revenue *</label>
+                    <input type="number" id="annual-revenue" name="annual-revenue" required>
+                </div>
+                <div class="form-group">
+                    <label for="loan-purpose">What is the purpose of your loan request? *</label>
+                    <select id="loan-purpose" name="loan-purpose" required>
+                        <option value="">- Select -</option>
+                        <option value="purchase-real-estate">Purchase Real Estate</option>
+                        <option value="refinance-real-estate">Refinance Real Estate</option>
+                        <option value="acquire-business">Acquire Business</option>
+                        <option value="buy-out-partner">Buy Out Partner</option>
+                        <option value="secure-working-capital">Secure Working Capital</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="loan-amount">Estimated Loan Amount *</label>
+                    <select id="loan-amount" name="loan-amount" required>
+                        <option value="">- Select -</option>
+                        <option value="<350000">Less than $350,000</option>
+                        <option value="350000-500000">$350,000 - $500,000</option>
+                        <option value="500000-1000000">$500,000 - $1,000,000</option>
+                        <option value=">1000000">More than $1,000,000</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="loan-needs">Tell Us About Your Needs *</label>
+                    <textarea id="loan-needs" name="loan-needs" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h3>Contact Streamline</h3>
+                    <ul class="contact-info">
+                        <li><img src="icons/phone-icon.svg" alt="Phone Icon"> (123) 456-7890</li>
+                        <li><img src="icons/mail-icon.svg" alt="Email Icon"> contact@streamline.com</li>
+                        <li><img src="icons/location-icon.svg" alt="Location Icon"> 123 Business Ave, Suite 456</li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="footer-section">
+                    <h3>Connect with Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="icons/facebook-icon.svg" alt="Facebook"></a>
+                        <a href="#"><img src="icons/instagram-icon.svg" alt="Instagram"></a>
+                        <a href="#"><img src="icons/linkedin-icon.svg" alt="LinkedIn"></a>
+                        <a href="#"><img src="icons/twitter-icon.svg" alt="Twitter"></a>
+                        <a href="#"><img src="icons/youtube-icon.svg" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Streamline. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
